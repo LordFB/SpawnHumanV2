@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "rigVersion": "1.0.0",
+  "units": "meters",
+  "up": "Y",
+  "forward": "+Z",
+  "bodyIds": [
+    "adult-v1",
+    "adult-male-v1",
+    "adult-female-v1"
+  ],
+  "grooms": [
+    "bald",
+    "crop",
+    "bob",
+    "curls"
+  ],
+  "garments": [
+    "studio",
+    "casual"
+  ],
+  "license": "CC0-1.0; Blender Studio/community human bases and original procedural grooms",
+  "quality": {
+    "maxStrands": 9600,
+    "segments": 8,
+    "renderSegments": 6,
+    "guideStride": 10,
+    "gpuBudgetMB": 256
+  },
+  "assets": [
+    {
+      "id": "adult-v1",
+      "path": "adult-diagnostic-v1.glb",
+      "status": "diagnostic",
+      "vertices": 7872,
+      "triangles": 14400,
+      "geometryHash": "97631e47",
+      "morphTargets": []
+    },
+    {
+      "id": "adult-male-v1",
+      "path": "adult-male-v1.glb",
+      "status": "integrated-base",
+      "vertices": 51470,
+      "triangles": 102190,
+      "geometryHash": "09f26cce",
+      "morphTargets": [
+        "sil",
+        "PP",
+        "FF",
+        "TH",
+        "DD",
+        "kk",
+        "CH",
+        "SS",
+        "nn",
+        "RR",
+        "aa",
+        "E",
+        "I",
+        "O",
+        "U",
+        "jawOpen",
+        "mouthSmileLeft",
+        "mouthSmileRight",
+        "mouthFrownLeft",
+        "mouthFrownRight",
+        "eyeBlinkLeft",
+        "eyeBlinkRight"
+      ]
+    },
+    {
+      "id": "adult-female-v1",
+      "path": "adult-female-v1.glb",
+      "status": "integrated-base",
+      "vertices": 51470,
+      "triangles": 102190,
+      "geometryHash": "d18e2652",
+      "morphTargets": [
+        "sil",
+        "PP",
+        "FF",
+        "TH",
+        "DD",
+        "kk",
+        "CH",
+        "SS",
+        "nn",
+        "RR",
+        "aa",
+        "E",
+        "I",
+        "O",
+        "U",
+        "jawOpen",
+        "mouthSmileLeft",
+        "mouthSmileRight",
+        "mouthFrownLeft",
+        "mouthFrownRight",
+        "eyeBlinkLeft",
+        "eyeBlinkRight"
+      ]
+    }
+  ]
+}

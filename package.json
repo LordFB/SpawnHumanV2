@@ -1,0 +1,19 @@
+{
+    "name":  "private-human-lab",
+    "version":  "0.1.0",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "vite --host 127.0.0.1",
+                    "build":  "tsc --noEmit \u0026\u0026 vite build",
+                    "test":  "tsx --test tests/*.test.ts",
+                    "assets":  "tsx scripts/export-assets.ts"
+                },
+    "devDependencies":  {
+                            "@webgpu/types":  "0.1.64",
+                            "typescript":  "5.7.2",
+                            "vite":  "6.4.4",
+                            "tsx":  "4.19.3",
+                            "playwright-core":  "1.58.2"
+                        }
+}

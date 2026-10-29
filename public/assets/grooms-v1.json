@@ -1,0 +1,1 @@
+{"version":"1.0.0","grooms":["bald","crop","bob","curls"],"algorithm":"src/deformation.ts; src/blender-character.ts","anchorStatus":"independent mesh triangle IDs and barycentric coordinates; guides drive local follower groups","segments":8,"renderSegments":6,"guideStride":10}
